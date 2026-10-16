@@ -1,0 +1,1 @@
+var e=`/_astro/sql-wasm-browser-DfANybxk.wasm`;export{e as default};

@@ -1,0 +1,1 @@
+function e(e){let t=(Date.now()-new Date(e).getTime())/1e3;return t<60?`hozirgina`:t<3600?`${Math.floor(t/60)} daqiqa oldin`:t<86400?`${Math.floor(t/3600)} soat oldin`:t<2592e3?`${Math.floor(t/86400)} kun oldin`:new Date(e).toLocaleDateString(`uz-UZ`)}export{e as t};

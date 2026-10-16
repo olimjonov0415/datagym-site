@@ -1,0 +1,1 @@
+{"id":"cte-10","title":"Faktorial","tables":[{"name":"params","columns":[["n","INTEGER"]]}],"setup":{"postgres":"CREATE TABLE params (n INTEGER NOT NULL CHECK (n BETWEEN 0 AND 20));\n\n-- Namuna\nINSERT INTO params VALUES (6);\n","sqlite":"CREATE TABLE params (n INTEGER NOT NULL CHECK (n BETWEEN 0 AND 20));\n\n-- Namuna\nINSERT INTO params VALUES (6);\n"}}
