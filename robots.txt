@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /judge/
+Disallow: /playground/data/
+
+Sitemap: https://datagym.uz/sitemap.xml

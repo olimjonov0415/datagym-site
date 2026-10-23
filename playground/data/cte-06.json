@@ -1,0 +1,1 @@
+{"id":"cte-06","title":"Fibonachchi sonlari","tables":[{"name":"params","columns":[["n","INTEGER"]]}],"setup":{"postgres":"CREATE TABLE params (n INTEGER NOT NULL CHECK (n BETWEEN 0 AND 40));\n\n-- Namuna\nINSERT INTO params VALUES (10);\n","sqlite":"CREATE TABLE params (n INTEGER NOT NULL CHECK (n BETWEEN 0 AND 40));\n\n-- Namuna\nINSERT INTO params VALUES (10);\n"}}
