@@ -1,0 +1,1 @@
+{"id":"cte-02","title":"1 dan N gacha sonlar","tables":[{"name":"params","columns":[["n","INTEGER"]]}],"setup":{"postgres":"CREATE TABLE params (n INTEGER NOT NULL CHECK (n BETWEEN 0 AND 100000));\n\n-- Namuna\nINSERT INTO params VALUES (5);\n","sqlite":"CREATE TABLE params (n INTEGER NOT NULL CHECK (n BETWEEN 0 AND 100000));\n\n-- Namuna\nINSERT INTO params VALUES (5);\n"}}

@@ -1,0 +1,1 @@
+var e={Oson:`d-oson`,"O'rta":`d-orta`,Qiyin:`d-qiyin`};export{e as t};

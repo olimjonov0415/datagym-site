@@ -1,0 +1,1 @@
+{"id":"ddl-13","title":"Rahbar ham xodim","tables":[],"setup":{"postgres":"-- Bu masalada boshqa jadval yo'q: hamma narsa siz yaratadigan jadvalda.\n\n-- Namuna\n\n","sqlite":"PRAGMA foreign_keys = ON;\n-- Bu masalada boshqa jadval yo'q: hamma narsa siz yaratadigan jadvalda.\n\n-- Namuna\n\n"}}
